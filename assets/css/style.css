@@ -1,0 +1,539 @@
+body{
+	width:auto;
+	background-image: url("../images/background.png");
+	margin:0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/** { border: 1px solid black; } */
+
+header{
+	background-color: #ffffff;
+	height:82px;
+	border-style: solid;
+	border-color: darkgray;
+	border-bottom-width: 5px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	right: 0;
+	left:0;
+}
+
+#headerName{
+	background-color:#4aaaa5;
+	float:left;
+	color:white;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	text-align:center;
+	padding:10px;
+	margin-left:121px;
+	height:41px;
+	width:300px;
+}
+
+#navLinks {
+	float: right;
+	margin-right: 155px;
+	margin-top:10px;
+	height:auto;
+	width:auto;
+}
+
+#navLinks ul{
+	text-align:center;
+	list-style-type:none;
+}
+
+#navLinks li {
+ 	float: left;
+}
+
+#navLinks li+li {
+  border-left: 1px solid black
+}
+
+#navLinks li a {
+	display: block;
+	color: darkgrey;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-family: arial
+}
+
+.parentBody{
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+.mainContainer{
+	width:40%;
+	height:auto;
+	background-color:white;
+	float:left;
+	display:flex;
+	margin-left:121px;
+	margin-top:30px;
+}
+
+#allHeader{
+	color:#4aaaa5;
+	margin-left:25px;
+	margin-right:25px;
+	border-bottom-style:solid;
+	border-bottom-color:gray;
+	border-bottom-width:2px;
+}
+
+#profilePic{
+	float:left;
+	margin-top:20px;
+	margin-left:25px;
+	padding-right:8px;
+	padding-bottom:8px;
+	max-width:200px;
+	max-height:200px;
+}
+
+#aboutP {
+	text-align:left;
+	padding:16px;
+}
+
+#connectContainer{
+	background-color:white;
+	width:auto;
+	float:right;
+	margin-top:30px;
+	margin-right:121px;
+}
+
+#connectHeader{
+	color:#4aaaa5;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:left;
+	border-bottom-style:solid;
+	border-bottom-color:gray;
+	border-bottom-width:2px;
+
+}
+
+#connectIcons{
+	float:left;
+	margin:5px;
+	padding:5px;
+}
+
+footer{
+	background-color:#666666;
+	border-top:#4aaaa5;
+	border-style:solid;
+	border-top-width:8px; 
+	position: fixed;
+	text-align: center;
+	height:75px;
+	bottom: 0;
+	right: 0;
+	left:0;
+}
+
+#copyright{
+	color:#ffffff;
+	font-size:15px;
+	padding-top:20px;
+}
+
+/*Portfolio Specific*/ 
+/*Portfolio Specific*/ 
+
+#imageContainer{
+	display:flex;
+	background-color:white;
+	width:700px;
+	padding: 0;
+  	margin: 15px;
+}
+
+.appList{
+	padding: 50px;
+  	margin: 15px;
+  	list-style: none;
+  	display:flex;
+  	flex-flow:wrap;
+}
+
+.appImage{
+  	float:left;
+  	margin:10px; 
+  	position:relative;
+}
+
+.appName{
+  background-color:grey;
+  width:90%;
+  height: 50px;
+  margin-bottom:20px;
+  margin-left:10px;
+  bottom:0;
+  opacity:1; 
+}
+
+/*contact Specific*/ 
+/*contact Specific*/ 
+
+#label{
+	margin-left:20px;
+}
+
+#smallBox{
+	margin-left:20px;
+}
+
+#messageInput{
+	margin-left:20px;
+	height:250px;
+	width:500px;
+}
+
+#submitButton{
+	margin:20px;
+	background-color: #4aaaa5;
+    color: white;
+    text-align:center;
+    border: none;
+    cursor: pointer;
+    height:45px;
+    width:100px;
+}
+
+
+
+@media all and (max-width:768px){
+
+		body{
+	width:auto;
+	height:auto;
+	background-image: url("../images/background.png");
+	margin:0;
+	}
+
+	header{
+	z-index:1;
+	position:fixed;
+	background-color: #ffffff;
+	height:82px;
+	border-style: solid;
+	border-color: darkgray;
+	border-bottom-width: 5px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	right: 0;
+	left:0;
+	}
+
+	#headerName{
+	background-color:#4aaaa5;
+	color:white;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	text-align:left;
+	position:absolute;
+	margin:0;
+	padding:0;
+	width:640px;
+	padding-left:145px;
+	}	
+
+	#navLinks {
+	float: left;
+	margin-top:30px;
+	margin-left:145px;
+	height:auto;
+	width:640px;
+	}
+
+	#navLinks ul{
+	text-align:center;
+	list-style-type:none;
+	}
+
+	#navLinks li {
+ 	float: left;
+	}
+
+	#navLinks li+li {
+  	border-left: 1px solid black
+	}
+
+	#navLinks li a {
+	display: block;
+	color: darkgrey;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-family: arial
+	}
+
+	.parentBody{
+	position:absolute;
+	left:0;
+	right:0;
+	}
+
+	.mainContainer{
+	width:80%;
+	height:auto;
+	background-color:white;
+	float:left;
+	display:flex;
+	margin-left:60px;
+	margin-top:100px;
+	}
+
+	#allHeader{
+	color:#4aaaa5;
+	text-align:left;
+	margin-left:25px;
+	border-bottom-style:solid;
+	border-bottom-color:gray;
+	border-bottom-width:2px;
+	}
+
+	#profilePic{
+	float:left;
+	margin-top:5px;
+	margin-left:35px;
+	padding-right:8px;
+	padding-bottom:8px;
+	max-width:250px;
+	max-height:250px;
+	}
+
+	#aboutP {
+	clear:both;
+	text-align:left;
+	padding:16px;
+	}
+
+	#connectContainer{
+	background-color:white;
+	width:80%;
+	height:200px;
+	float:left;
+	margin-left:60px;
+	/*margin-top:30px;
+	margin-right:121px;*/
+	}
+
+	#connectHeader{
+	color:#4aaaa5;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:left;
+	border-bottom-style:solid;
+	border-bottom-color:gray;
+	border-bottom-width:2px;
+	}
+
+	#connectIcons{
+	float:left;
+	height:3px;
+	width:3px;
+	margin:0px;
+	padding:5px;
+	}
+
+	footer{
+	background-color:#666666;
+	border-top:#4aaaa5;
+	border-style:solid;
+	border-top-width:8px; 
+	position: fixed;
+	text-align: center;
+	height:45px;
+	bottom: 0;
+	right: 0;
+	left:0;
+	}
+
+	#copyright{
+	color:#ffffff;
+	font-size:15px;
+	padding-top:5px;
+	}
+
+	#messageInput{
+	margin-left:20px;
+	height:250px;
+	width:350px;
+	}
+
+}
+
+
+@media all and (max-width:640px){
+
+	/** { border: 1px solid black; } */
+
+	body{
+	width:auto;
+	height:auto;
+	background-image: url("../images/background.png");
+	margin:0;
+	}
+
+	header{
+	z-index:1;
+	position:fixed;
+	background-color: #ffffff;
+	height:82px;
+	border-style: solid;
+	border-color: darkgray;
+	border-bottom-width: 5px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	right: 0;
+	left:0;
+	}
+
+	#headerName{
+	background-color:#4aaaa5;
+	color:white;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	text-align:left;
+	position:absolute;
+	margin:0;
+	padding:0;
+	width:640px;
+	padding-left:65px;
+	}	
+
+	#navLinks {
+	float: left;
+	margin-top:30px;
+	margin-left:70px;
+	height:auto;
+	width:640px;
+	}
+
+	#navLinks ul{
+	text-align:center;
+	list-style-type:none;
+	}
+
+	#navLinks li {
+ 	float: left;
+	}
+
+	#navLinks li+li {
+  	border-left: 1px solid black
+	}
+
+	#navLinks li a {
+	display: block;
+	color: darkgrey;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-family: arial
+	}
+
+	.parentBody{
+	position:absolute;
+	left:0;
+	right:0;
+	}
+
+	.mainContainer{
+	width:80%;
+	height:auto;
+	background-color:white;
+	float:left;
+	display:flex;
+	margin-left:50px;
+	margin-top:100px;
+	}
+
+	#allHeader{
+	color:#4aaaa5;
+	text-align:center;
+	margin-left:25px;
+	border-bottom-style:solid;
+	border-bottom-color:gray;
+	border-bottom-width:2px;
+	}
+
+	#profilePic{
+	float:left;
+	margin-top:5px;
+	margin-left:35px;
+	padding-right:8px;
+	padding-bottom:8px;
+	max-width:250px;
+	max-height:250px;
+	}
+
+	#aboutP {
+	clear:both;
+	text-align:left;
+	padding:16px;
+	}
+
+	#connectContainer{
+	background-color:white;
+	width:80%;
+	height:200px;
+	float:left;
+	margin-left:50px;
+	/*margin-top:30px;
+	margin-right:121px;*/
+	}
+
+	#connectHeader{
+	color:#4aaaa5;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:left;
+	border-bottom-style:solid;
+	border-bottom-color:gray;
+	border-bottom-width:2px;
+	}
+
+	#connectIcons{
+	float:left;
+	height:3px;
+	width:3px;
+	margin:0px;
+	padding:5px;
+	}
+
+	footer{
+	background-color:#666666;
+	border-top:#4aaaa5;
+	border-style:solid;
+	border-top-width:8px; 
+	position: fixed;
+	text-align: center;
+	height:45px;
+	bottom: 0;
+	right: 0;
+	left:0;
+	}
+
+	#copyright{
+	color:#ffffff;
+	font-size:15px;
+	padding-top:5px;
+	}
+
+	#messageInput{
+	margin-left:20px;
+	height:250px;
+	width:280px;
+	}
+
+}
